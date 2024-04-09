@@ -19,18 +19,7 @@ export async function POST(
         "role": "system",
         "content": "tax consultant"
       },
-      {
-        "role": "user",
-        "content": "hi"
-      },
-      {
-        "role": "assistant",
-        "content": "here to help you with tax planning."
-      },
-       {
-        "role": "assistant",
-        "content": "here to help you with tax planning."
-      }
+      
     ],
     temperature: 1,
     max_tokens: 256,
